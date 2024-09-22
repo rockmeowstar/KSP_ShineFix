@@ -19,7 +19,7 @@ Get the latest .zip from releases. Unzip it, paste 000_ShineFix folder in your g
 
 ### Requirements: 
 
-https://ksp.sarbian.com/jenkins/job/ModuleManager/163/artifact/ModuleManager-4.2.3.zip
+https://ksp.sarbian.com/jenkins/job/ModuleManager/
 
 https://github.com/LGhassen/Deferred
 
