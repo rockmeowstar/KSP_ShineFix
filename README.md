@@ -19,6 +19,8 @@ Get the latest .zip from releases. Unzip it, paste 000_ShineFix folder in your g
 
 ### Requirements: 
 
+https://ksp.sarbian.com/jenkins/job/ModuleManager/163/artifact/ModuleManager-4.2.3.zip
+
 https://github.com/LGhassen/Deferred
 
 https://github.com/KSPModdingLibs/Shabby
@@ -27,6 +29,7 @@ https://github.com/KSPModdingLibs/HarmonyKSP
 
 ```Kerbal Space Program
 └──────GameData
+		├──────ModuleManager.dll
 		├──────000_Harmony
 		├──────000_ShineFix
 		├──────Shabby
