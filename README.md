@@ -12,6 +12,10 @@ This mod fixes the gloss/shininess/transparency errors in the original KSP mu mo
 
 ![ShineFix_screenshot7](https://github.com/user-attachments/assets/66c32e73-47ed-456b-981d-ee728e83fe33)
 
+## Forum topic
+
+https://forum.kerbalspaceprogram.com/topic/225969-112x-shinefix-wip
+
 ## Manual installation
 
 Get the latest .zip from releases. Unzip it, paste 000_ShineFix folder in your game's GameData folder.
