@@ -14,6 +14,7 @@ This mod fixes the gloss/shininess/transparency errors in the original KSP mu mo
 
 ![ShineFix_screenshot5](https://github.com/user-attachments/assets/1e14e2a4-02da-4f9a-aa3e-8924de88002d)
 
+![ShineFix_screenshot7](https://github.com/user-attachments/assets/66c32e73-47ed-456b-981d-ee728e83fe33)
 
 ## Manual installation
 
