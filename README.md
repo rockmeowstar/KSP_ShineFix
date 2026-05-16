@@ -1,3 +1,7 @@
+Adds proper reflections
+
+
+
 ## Description
 
 This mod fixes the gloss/shininess/transparency errors in the original KSP mu models.
