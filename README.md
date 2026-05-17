@@ -1,6 +1,13 @@
+Adds proper reflections
+
+
+
 ## Description
 
 This mod fixes the gloss/shininess/transparency errors in the original KSP mu models.
+
+<img width="2046" height="1612" alt="screenshot218" src="https://github.com/user-attachments/assets/05b5d461-15f9-4289-ba95-93f626656559" />
+
 
 ![shinefix_release](https://github.com/user-attachments/assets/0dae5262-5557-4219-b294-3596d512debd)
 
