@@ -42,7 +42,7 @@
 - **FreeIVA-style movement in Through The Eyes of a Kerbal.** The optional controls make movement from IVA to first-person EVA feel continuous. The integration lives in ShineFix alongside the interior optimization that makes visible cabin windows practical without boarding hitches.
 - **Readable interiors with the lights on.** Window glow is tuned so the cabin and Kerbals remain visible through the glass.
 - **Live transparency switching.** Choose semi-transparent reflective windows or the classic ShineFix look with opaque reflective windows. The change applies as soon as you toggle it.
-- **Built from scratch.** ShineFix 2.0 reuses no protected asset files from KSP or other mods. The mod author created all texture masks, which ShineFix applies to installed materials at runtime.
+- **Built from scratch.** ShineFix 2.0 reuses no protected asset files from KSP or other mods. I created all the texture masks, which ShineFix applies to installed materials at runtime.
 - **Reflections and transparency survive recoloring.** A key difference in ShineFix 2.0 is that changing a supported part's paint keeps the effects aligned with its windows and reflective surfaces.
 - **A dedicated in-game toolbar icon.** Click **SF** in the KSP toolbar to open ShineFix settings and quickly change window transparency or access the optional first-person EVA controls.
 
@@ -91,7 +91,7 @@ And many other wonderful, surprising mods in the [full screenshot gallery](https
 
 The verified target is **KSP 1.12.5 on Windows x64 with Direct3D 11**. Install [HarmonyKSP](https://github.com/KSPModdingLibs/HarmonyKSP), [ModuleManager](https://github.com/sarbian/ModuleManager), and [Deferred](https://github.com/LGhassen/Deferred) with its required shader loader [Shabby](https://github.com/KSPModdingLibs/Shabby).
 
-[FreeIVA](https://github.com/pizzaoverhead/FreeIva) is needed for the optional bridge. [Through The Eyes of a Kerbal](https://github.com/FirstPersonKSP/Through-The-Eyes) is needed for the optional first-person EVA controls. The download links currently point to the published legacy releases. The 2.0.0-rc2 catalog and verification evidence are available above.
+[FreeIVA](https://github.com/pizzaoverhead/FreeIva) is needed for the optional bridge. [Through The Eyes of a Kerbal](https://github.com/FirstPersonKSP/Through-The-Eyes) is needed for the optional first-person EVA controls.
 
 ## License
 
@@ -99,7 +99,7 @@ ShineFix-owned code and mod assets are licensed under [GNU GPL version 3 or late
 
 ## AI disclosure
 
-The author estimates AI contribution at **2% of the code** and **72% of the tests**.
+It is estimated that AI contributed **2% of the code** and **72% of the tests**.
 
 ## Performance disclaimer
 
