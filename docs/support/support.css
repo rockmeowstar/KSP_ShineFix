@@ -1,3 +1,5 @@
+@import url("../assets/brand.css");
+
 :root {
     color-scheme: dark;
     font-family: "Segoe UI", system-ui, sans-serif;
@@ -84,4 +86,3 @@ section { margin-top: 2rem; }
     .frame { padding-top: 1.25rem; }
     .pair { grid-template-columns: minmax(0, 1fr); }
 }
-.site-home { display: inline-flex; min-height: 44px; align-items: center; margin-inline: max(1rem, calc((100% - 1100px) / 2)); }

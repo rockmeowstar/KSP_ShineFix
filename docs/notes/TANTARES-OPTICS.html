@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tantares v28.0 optical review · ShineFix</title><link rel="stylesheet" href="../assets/site.css">
-<body><nav class="top" aria-label="Main"><a class="mark" href="../index.html">ShineFix</a><div>
-<a href="../support/index.html">Catalog</a><a href="../gallery.html">Gallery</a><a href="../support/evidence.html">Evidence</a></div></nav>
+<title>Tantares v28.0 optical review · ShineFix</title><link rel="icon" href="../assets/shinefix-icon.png" type="image/png"><link rel="stylesheet" href="../assets/site.css">
+<body><nav class="top" aria-label="Main"><a class="mark" href="../index.html" aria-label="ShineFix home"><img src="../assets/shinefix-icon.png" alt="" width="30" height="30">ShineFix</a><div><a href="../support/index.html">Catalog</a><a href="../gallery.html">Gallery</a><a href="../support/evidence.html">Evidence</a></div></nav>
 <main class="frame prose"><h1>Tantares v28.0 optical review</h1>
 <p>The native material inventory covers 326 parts and 1,292 material slots. There are 60 crewed parts and 55 configured IVA names. Window-like renderer names identify 48 crewed candidates. The other 12 crewed parts also require a model and UV check. Three uncrewed candidates with window-like names belong to Vostok instrumentation or telescopes.</p>
 <p>The 21 parts with <code>ModuleDeployableSolarPanel</code> use eight authored specular atlases. The masks select the cell islands from the specular maps, then apply the shared Gaussian filter. Each profile binds to the moving cell meshes and their exact atlas at shininess 0.95 and specular color <code>#e7e7e7</code>. These profiles have no transparency rule. Rebuilding the eight DDS files and profiles produced identical hashes. Static checks matched all 21 profiles to the native renderer and atlas inventory. All 21 arrays were captured deployed and facing the camera in KSP. The Aquila Type B craft loaded its selected B9 subtype in both scenes and bound its three extension leaves. The gallery shows Type B.</p>

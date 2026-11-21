@@ -2,7 +2,7 @@
   <img src="assets/shinefix-hero.png" width="100%" alt="ShineFix over a violet nebula">
 </p>
 
-<h1 align="center">ShineFix</h1>
+<h1 align="center"><img src="docs/assets/shinefix-icon.png" width="30" height="30" alt=""> ShineFix</h1>
 
 <p align="center">
   Reflections for solar panels and windows, transparent cabins, and visible Kerbal crews in Kerbal Space Program.
@@ -34,14 +34,17 @@
 
 ## What’s new
 
-| Feature | How it works |
-|---|---|
-| **Solar panels, windows, and recolors** | Human testing covers 229 mods and Stock. The release profiles explicitly name **1,694 unique part targets**. The optics galleries show **1,522 unique photographed part IDs** across the integrations with optics changes. Reflection and transparency masks stay registered when you recolor a supported part. The long-term goal is to cover every player-created KSP part mod. |
-| **Transparent cabins and labs** | See IVA interiors through reflective cockpit and laboratory windows. Tuned window emission keeps the interior and crew readable when the cabin lights are on. |
-| **Crew in the hangar** | See assigned Kerbals in their actual seats while building. Their position and scale give you a reference for judging craft dimensions. Targeted crew updates reduce hitches when Kerbals board a cabin. |
-| **Reflective helmet visors** | Helmet reflections also appear in the main menu. |
-| **Continuous IVA and EVA handling** | With FreeIVA and Through The Eyes of a Kerbal, the optional first-person EVA controls carry familiar FreeIVA movement into EVA. The control bridge lives in ShineFix alongside the optimized cabin code that draws crew through windows with low overhead. |
-| **Live transparency switch** | The SF menu changes window transparency immediately. Use reflective semi-transparent windows or the classic reflective opaque finish at any time. |
+- **Solar panel and window reflections.** Human verification covers **229 mods and Stock**. The release targets **1,694 unique named parts**, and the optics galleries show **1,522 distinct part IDs** across integrations with optics changes. The goal is to cover every player-created KSP part mod.
+- **Kerbal helmet reflections in the main menu.** Helmet visors reflect their surroundings both in the menu and in gameplay.
+- **Smoother boarding.** Small fixes reduce the hitch when Kerbals board a cabin. ShineFix updates the affected crew and reuses cabin geometry when it can.
+- **Transparent windows for cabins and science modules.** See cockpit and lab interiors through their reflective glass.
+- **Visible crew in the hangar.** Assign a Kerbal in the editor and see them at their seat, giving you a reference for the size and proportions of the craft.
+- **FreeIVA-style movement in Through The Eyes of a Kerbal.** The optional controls make movement from IVA to first-person EVA feel continuous. The integration lives in ShineFix alongside the interior optimization that makes visible cabin windows practical without boarding hitches.
+- **Readable interiors with the lights on.** Window glow is tuned so the cabin and Kerbals remain visible through the glass.
+- **Live transparency switching.** Choose semi-transparent reflective windows or the classic ShineFix look with opaque reflective windows. The change applies as soon as you toggle it.
+- **Built from scratch.** ShineFix 2.0 reuses no protected asset files from KSP or other mods. The mod author created all texture masks, which ShineFix applies to installed materials at runtime.
+- **Reflections and transparency survive recoloring.** A key difference in ShineFix 2.0 is that changing a supported part's paint keeps the effects aligned with its windows and reflective surfaces.
+- **A dedicated in-game toolbar icon.** Click **SF** in the KSP toolbar to open ShineFix settings and quickly change window transparency or access the optional first-person EVA controls.
 
 ## Runtime requirements
 
@@ -49,9 +52,9 @@ The verified target is **KSP 1.12.5 on Windows x64 with Direct3D 11**. Install [
 
 [FreeIVA](https://github.com/pizzaoverhead/FreeIva) is needed for the optional bridge. [Through The Eyes of a Kerbal](https://github.com/FirstPersonKSP/Through-The-Eyes) is needed for the optional first-person EVA controls. The download links currently point to the published legacy releases. The 2.0.0-rc2 catalog and verification evidence are available above.
 
-## Original work and license
+## License
 
-ShineFix 2.0 is a ground-up implementation. The mod uses author-created texture masks and applies them at runtime to materials already installed in the game. It distributes no copied KSP or third-party mod asset files. ShineFix-owned code and mod assets are licensed under [GNU GPL version 3 or later](LICENSE). The KSP screenshots depict game and community-mod assets whose rights remain with their respective owners. The banner was rendered with [Procedural Nebula v5](https://github.com/rockmeowstar/procedural-nebula).
+ShineFix-owned code and mod assets are licensed under [GNU GPL version 3 or later](LICENSE). The KSP screenshots depict game and community-mod assets whose rights remain with their respective owners. The banner was rendered with [Procedural Nebula v5](https://github.com/rockmeowstar/procedural-nebula).
 
 ## AI disclosure
 

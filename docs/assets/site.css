@@ -1,3 +1,5 @@
+@import url("brand.css");
+
 :root {
   color-scheme: dark;
   --background: #0c101a;
@@ -16,10 +18,7 @@ a { color: var(--accent); text-underline-offset: .2em; }
 a:hover { color: #fff; }
 a:focus-visible { outline: 2px solid #e6ddff; outline-offset: 4px; }
 .frame { width: min(1120px, calc(100% - 2rem)); margin-inline: auto; }
-.top { position: relative; z-index: 1; margin-inline: auto; width: min(1120px, calc(100% - 2rem)); min-height: 64px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0 .8rem; }
-.top div { display: flex; gap: .2rem .9rem; flex-wrap: wrap; }
-.top a, footer a { display: inline-flex; min-height: 44px; align-items: center; }
-.mark { font-size: 1.1rem; font-weight: 750; color: var(--text); text-decoration: none; }
+footer a { display: inline-flex; min-height: 44px; align-items: center; }
 .hero { position: relative; isolation: isolate; padding: 2.9rem 0 2rem; text-align: center; }
 .hero::before { content: ""; position: absolute; inset: 0 0 7%; z-index: -1; background: linear-gradient(180deg, #0c101a40, #0c101a66 34%, var(--background) 100%), url("nebula.webp") center 46% / cover no-repeat; }
 .hero h1 { margin: .04em 0 .15em; font-size: clamp(4rem, 12vw, 9rem); line-height: .98; letter-spacing: -.067em; }
@@ -38,6 +37,10 @@ a:focus-visible { outline: 2px solid #e6ddff; outline-offset: 4px; }
 .landing-links article { padding: 1rem 1.2rem; }
 .landing-links h2 { margin: 0; font-size: 1.12rem; }
 .landing-links p, .page-title p { color: var(--muted); margin: .3rem 0 0; }
+.toolbar-feature { display: flex; align-items: center; gap: .85rem; margin-bottom: 1.5rem; }
+.toolbar-feature img { flex: none; border-radius: .25rem; }
+.toolbar-feature p { margin: 0; color: var(--muted); }
+.toolbar-feature strong { color: var(--text); }
 footer { display: flex; border-top: 1px solid var(--line); gap: .25rem 1rem; flex-wrap: wrap; padding: .7rem 0 1.4rem; }
 .page-title, .prose { padding: 1.1rem 0 2rem; }
 .page-title h1, .prose h1 { font-size: clamp(2rem, 6vw, 3.7rem); line-height: 1.12; margin: .6rem 0; }

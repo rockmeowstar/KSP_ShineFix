@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Shuttle Orbiter Construction Kit 1.1.8 optical review · ShineFix</title><link rel="stylesheet" href="../assets/site.css">
-<body><nav class="top" aria-label="Main"><a class="mark" href="../index.html">ShineFix</a><div>
-<a href="../support/index.html">Catalog</a><a href="../gallery.html">Gallery</a><a href="../support/evidence.html">Evidence</a></div></nav>
+<title>Shuttle Orbiter Construction Kit 1.1.8 optical review · ShineFix</title><link rel="icon" href="../assets/shinefix-icon.png" type="image/png"><link rel="stylesheet" href="../assets/site.css">
+<body><nav class="top" aria-label="Main"><a class="mark" href="../index.html" aria-label="ShineFix home"><img src="../assets/shinefix-icon.png" alt="" width="30" height="30">ShineFix</a><div><a href="../support/index.html">Catalog</a><a href="../gallery.html">Gallery</a><a href="../support/evidence.html">Evidence</a></div></nav>
 <main class="frame prose"><h1>Shuttle Orbiter Construction Kit 1.1.8 optical review</h1>
 <p>The pinned KSP inventory loaded 22 parts and 140 material slots, including five crewed parts. The shuttle cockpit and both Spacelab lengths have glazing in shared emissive atlases. Native renderer UVs for the Orbiter Docking System and inline airlock have no blue glass region on their shared non-emissive atlases. The cargo-bay body, both doors and aft fuselage have no overlap with the cockpit aperture islands.</p>
 <p>The shuttle nameplate and wing decals use translucent materials for markings. Intersecting blue tint and emission produces six UV islands on the cockpit atlas and two on the Spacelab atlas. The cockpit maps align in their DDS orientation. The Spacelab emission PNG must be flipped vertically to align with its diffuse DDS. The profiles bind to the exact cockpit shell, cockpit detail mesh and the two Spacelab body renderers. Reflection and transparency share the Gaussian-filtered aperture at 0.95 shininess, <code>#e7e7e7</code> specular and 0.80 opacity. Window emission preserves the native light control at 50% intensity.</p>

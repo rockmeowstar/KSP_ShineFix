@@ -1,0 +1,28 @@
+.top {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 .8rem;
+  width: min(1120px, calc(100% - 2rem));
+  min-height: 64px;
+  margin-inline: auto;
+}
+.top div { display: flex; flex-wrap: wrap; gap: .2rem .9rem; }
+.top a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--accent, #c6b8ff);
+}
+.top .mark {
+  gap: .55rem;
+  color: var(--text, #edf1f5);
+  font-size: 1.1rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+.top .mark img { display: block; border-radius: .25rem; }
+.top a:focus-visible { outline: 2px solid var(--accent, #c6b8ff); outline-offset: 3px; }
