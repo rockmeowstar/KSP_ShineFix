@@ -95,9 +95,11 @@ The verified target is **KSP 1.12.5 on Windows x64 with Direct3D 11**. Install [
 
 ## Installation
 
-1. If you used an earlier version of ShineFix, remove the `GameData/000_ShineFix` folder. ShineFix 2.0 disables itself when it detects that folder to prevent both versions from patching the same materials. If you are replacing a previous 2.0 build, remove its `GameData/000_ShineFixDynamic` folder before copying the new one.
-2. Copy `GameData/000_ShineFixDynamic` from the archive into your KSP `GameData` folder.
-3. Install `ShineFixFreeIva` only if [FreeIVA](https://github.com/pizzaoverhead/FreeIva) is installed. Copy `Optional/ShineFixFreeIva/GameData/ShineFixFreeIva` from the archive into your KSP `GameData` folder. The included bridge patches the installed FreeIVA at runtime.
+1. Remove your previous version of ShineFix. If `GameData/000_ShineFix` is still present, ShineFix 2.0 disables itself to prevent both versions from patching the same materials.
+2. Move the `000_ShineFixDynamic` folder from the archive into your KSP `GameData` folder.
+3. Launch the game. If installation succeeded, the **SF** icon will appear in the in-game toolbar.
+
+Install `ShineFixFreeIva` only if [FreeIVA](https://github.com/pizzaoverhead/FreeIva) is installed. Move the `ShineFixFreeIva` folder from the archive into `GameData` to enable the bridge.
 
 ## License
 
