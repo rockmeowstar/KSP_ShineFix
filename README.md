@@ -91,7 +91,13 @@ And many other wonderful, surprising mods in the [full screenshot gallery](https
 
 The verified target is **KSP 1.12.5 on Windows x64 with Direct3D 11**. Install [HarmonyKSP](https://github.com/KSPModdingLibs/HarmonyKSP), [ModuleManager](https://github.com/sarbian/ModuleManager), and [Deferred](https://github.com/LGhassen/Deferred) with its required shader loader [Shabby](https://github.com/KSPModdingLibs/Shabby).
 
-[FreeIVA](https://github.com/pizzaoverhead/FreeIva) is needed for the optional bridge. [Through The Eyes of a Kerbal](https://github.com/FirstPersonKSP/Through-The-Eyes) is needed for the optional first-person EVA controls.
+[Through The Eyes of a Kerbal](https://github.com/FirstPersonKSP/Through-The-Eyes) is needed for the optional first-person EVA controls.
+
+## Installation
+
+1. If you used an earlier version of ShineFix, remove the `GameData/000_ShineFix` folder. ShineFix 2.0 disables itself when it detects that folder to prevent both versions from patching the same materials. If you are replacing a previous 2.0 build, remove its `GameData/000_ShineFixDynamic` folder before copying the new one.
+2. Copy `GameData/000_ShineFixDynamic` from the archive into your KSP `GameData` folder.
+3. Install `ShineFixFreeIva` only if [FreeIVA](https://github.com/pizzaoverhead/FreeIva) is installed. Copy `Optional/ShineFixFreeIva/GameData/ShineFixFreeIva` from the archive into your KSP `GameData` folder. The included bridge patches the installed FreeIVA at runtime.
 
 ## License
 
