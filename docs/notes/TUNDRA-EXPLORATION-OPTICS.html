@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tundra Exploration 7.2.0 · ShineFix</title><link rel="stylesheet" href="../assets/site.css">
+<body><nav class="top" aria-label="Main"><a class="mark" href="../index.html">ShineFix</a><div>
+<a href="../support/index.html">Catalog</a><a href="../gallery.html">Gallery</a><a href="../support/evidence.html">Evidence</a></div></nav>
+<main class="frame prose"><h1>Tundra Exploration 7.2.0</h1>
+<p>The native KSP inventory covered 49 parts. Four received optics profiles.</p>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>ShineFix coverage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rodan Command Pod</td>
+<td>Side port apertures on the White, Silver, and Black variants.</td>
+</tr>
+<tr>
+<td>Rodan Tourism Command Pod</td>
+<td>Side port apertures on all three variants and dome glass with the nose cap open.</td>
+</tr>
+<tr>
+<td>RVS-42 Unpressurized Cargo Trunk</td>
+<td>Fixed photovoltaic skin on both fin variants.</td>
+</tr>
+<tr>
+<td>WK-41 1x4 Solar Array</td>
+<td>Photovoltaic faces of all four deployed leaves.</td>
+</tr>
+</tbody>
+</table>
+<p>The window profiles use a common reflection and transparency mask, 0.80 opacity, 0.95 shininess, #e7e7e7 specular color, and half-strength authored emission in fully masked areas. The solar profiles affect the cells only. Both Rodan pods omit the duplicate internal side glass from the exterior projection while preserving native IVA. After the change, all 40 sampled side-port sightlines per pod and scene reached interior geometry first.</p>
+<p>The gallery contains one craft per affected part, with SPH and runway captures. The runway solar elevation was 82.896–82.960 degrees. The harness verified two assigned seats per pod in both scenes, rendered the interior through the side ports and dome, switched both cabin finishes through three variants and the trunk through two variants, and exercised the stock cabin light control. The solar array was photographed deployed and the trunk was framed from its masked cell side.</p>
+<p>Tundra's separate tourism cupola-light action references a missing native <code>TE_Rodan_Lights</code> clip. The stock <code>ModuleColorChanger</code> cabin light works. The missing cupola animation remains an upstream limitation. Crew inventory was not independently exercised in this pass.</p>
+<ul>
+<li><a href="../evidence/PartGallery/TundraExploration-Review/ShineFix.html">Gallery</a></li>
+<li><a href="../records/evidence/PartGallery/TundraExploration-Review/tundra-exploration/all.log.html">Native run log</a></li>
+</ul>
+</main></body></html>

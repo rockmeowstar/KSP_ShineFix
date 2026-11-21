@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Less Real Than Real 2.0.7 optics review · ShineFix</title><link rel="stylesheet" href="../assets/site.css">
+<body><nav class="top" aria-label="Main"><a class="mark" href="../index.html">ShineFix</a><div>
+<a href="../support/index.html">Catalog</a><a href="../gallery.html">Gallery</a><a href="../support/evidence.html">Evidence</a></div></nav>
+<main class="frame prose"><h1>Less Real Than Real 2.0.7 optics review</h1>
+<p>Reviewed 32 single-part craft in the SPH and on the runway with KSP Community Fixes. The runway shots use a solar elevation of approximately 83°. The inventory contains 247 renderer material slots and 22 mod-owned color textures used by those slots. The review found no crew cabins, IVA windows, or photovoltaic modules among these parts.</p>
+<p><a href="../evidence/PartGallery/LRTR-FullReview/ShineFix.html">All 32 individual craft</a> · <a href="../evidence/PartGallery/LRTR-OpenOptics/ShineFix.html">Eight deployed instruments</a> · <a href="../records/evidence/PartGallery/LRTRToMSP-Inventory/LessRealThanReal/Materials.tsv.html">Native material inventory</a></p>
+<table>
+<thead>
+<tr>
+<th>Part or group</th>
+<th>Finding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Early Television Camera</td>
+<td>The existing masked lens failed the rendered reflection comparison in the SPH and on the runway. Its two gallery images are diagnostic close-ups.</td>
+</tr>
+<tr>
+<td>Improved TV Camera</td>
+<td>Both camera heads contain lenses. The model and color atlas match the supported Coatl Vorona camera byte for byte. LRTR has no profile for them. The deployed SPH shot shows the front lens. On the runway, the deployed heads drop below ground and only the support frame is visible. The main gallery has a separate usable runway shot in the folded pose.</td>
+</tr>
+<tr>
+<td>Advanced Visible Imaging Device and Basic TV Camera</td>
+<td>Both use the same telescope model and atlas region. The long front housing is visible in both scenes. The optical surface needs a front-on check before selecting a mask.</td>
+</tr>
+<tr>
+<td>Ultra Resolution Digital Imaging Camera, High Resolution Film Camera, and Improved Film Camera</td>
+<td>The open covers expose the instrument apertures. The first two share the two-aperture LargeRecon model. The third has one aperture on SmallRecon. The aperture meshes use a shared atlas with the casing. Any lens mask needs UV and surface isolation.</td>
+</tr>
+<tr>
+<td>High Resolution Imaging Device</td>
+<td>The authored shutter animation was sampled. The captured angle leaves the optical surface insufficiently exposed for acceptance.</td>
+</tr>
+<tr>
+<td>Advanced Infrared Mapping Spectrometer (AIMS), Pressure Modulated Infrared Radiometer (PMIRR), and Near Infrared Mapping Spectrometer (NIMS)</td>
+<td>The deployed captures expose the sensor assemblies. AIMS has a clearly visible gold optical surface. PMIRR and NIMS need a closer check of the sensor faces to distinguish reflective surfaces from dark openings.</td>
+</tr>
+<tr>
+<td>Micrometeorite Detector</td>
+<td>Separate green and red bulb meshes. The green indicator is visible in the SPH capture and the red one on the runway. The cabin-window emission rule does not apply.</td>
+</tr>
+<tr>
+<td>High-Resolution Infrared Radiometer, Infrared Radiometer, Infrared Interferometer Spectrometer (IRIS), Two-Channel Infrared Radiometer, and Ultraviolet Spectrometer</td>
+<td>No separate glass material was identified. The source atlases and baseline frames show sensor housings, grilles, or apertures. No window profile is indicated.</td>
+</tr>
+<tr>
+<td>Early, Fluxgate, and Helium Magnetometer Booms</td>
+<td>Probe structures and metal surfaces. The Helium model uses a dedicated gold texture with authored specular.</td>
+</tr>
+<tr>
+<td>Geiger-Muller Counter, Ion Mass Spectrometer, Magnetic Ion-Mass Spectrometer (MIMS), Plasma Wave Detector, Quadropole Mass Spectrometer, Radio and Plasma Wave Science (RPWS), Solar Wind Plasma Analyzer, Scintillation Counter Cosmic Ray Telescope, and Soil Mechanics Surface Sampler</td>
+<td>No distinct glass or photovoltaic surface confirmed in the material inventory and baseline frames. Shared atlas regions alone are insufficient evidence that a part uses an optical surface.</td>
+</tr>
+<tr>
+<td>Telemetry Launch Control Unit</td>
+<td>The compact exterior markings are painted into the body atlas. The separately named internal mesh belongs to the uncrewed part model.</td>
+</tr>
+<tr>
+<td>LV-303 “Pug” and LV-T15 “Valiant”</td>
+<td>Engine and fairing materials. Neither has a window, lens, or photovoltaic surface.</td>
+</tr>
+</tbody>
+</table>
+<p>The mod remains in manual review. This is coverage of the part inventory and diagnostic captures. Reflection acceptance remains open.</p>
+<p><a href="../records/evidence/PartGallery/LRTR-FullReview/lrtr-camera/Failure.txt.html">Early Television Camera comparison failures</a> · <a href="../records/evidence/PartGallery/LRTR-FullReview/lrtr-camera/RunwayLighting.tsv.html">Baseline runway lighting</a> · <a href="../records/evidence/PartGallery/LRTR-OpenOptics/lrtr-camera/RunwayLighting.tsv.html">Deployed runway lighting</a></p>
+</main></body></html>

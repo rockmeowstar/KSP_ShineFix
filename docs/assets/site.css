@@ -1,0 +1,60 @@
+:root {
+  color-scheme: dark;
+  --background: #0c101a;
+  --panel: #151c2b;
+  --text: #f0f2fb;
+  --muted: #b9c3da;
+  --accent: #c6b8ff;
+  --line: #35415d;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color: var(--text);
+  background: var(--background);
+}
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.55; }
+a { color: var(--accent); text-underline-offset: .2em; }
+a:hover { color: #fff; }
+a:focus-visible { outline: 2px solid #e6ddff; outline-offset: 4px; }
+.frame { width: min(1120px, calc(100% - 2rem)); margin-inline: auto; }
+.top { position: relative; z-index: 1; margin-inline: auto; width: min(1120px, calc(100% - 2rem)); min-height: 64px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0 .8rem; }
+.top div { display: flex; gap: .2rem .9rem; flex-wrap: wrap; }
+.top a, footer a { display: inline-flex; min-height: 44px; align-items: center; }
+.mark { font-size: 1.1rem; font-weight: 750; color: var(--text); text-decoration: none; }
+.hero { position: relative; isolation: isolate; padding: 2.9rem 0 2rem; text-align: center; }
+.hero::before { content: ""; position: absolute; inset: 0 0 7%; z-index: -1; background: linear-gradient(180deg, #0c101a40, #0c101a66 34%, var(--background) 100%), url("nebula.webp") center 46% / cover no-repeat; }
+.hero h1 { margin: .04em 0 .15em; font-size: clamp(4rem, 12vw, 9rem); line-height: .98; letter-spacing: -.067em; }
+.hero p:not(.eyebrow) { max-width: 42rem; margin: 0 auto; color: var(--muted); font-size: clamp(1rem, 2.1vw, 1.31rem); }
+.eyebrow { color: #e6ddff; font-size: .77rem; font-weight: 750; letter-spacing: .19em; text-transform: uppercase; }
+.actions { display: flex; justify-content: center; flex-wrap: wrap; gap: .65rem; margin: 1.65rem 0; }
+.button { display: inline-flex; min-height: 44px; align-items: center; padding: .52rem 1rem; border: 1px solid #aa99ea; border-radius: .55rem; text-decoration: none; font-weight: 650; }
+.button.primary { background: var(--accent); color: #1a1239; }
+.button.primary:hover { background: #e4dcff; }
+.metrics, .landing-links { display: grid; gap: .75rem; }
+.metrics { margin: 2.1rem 0 0; grid-template-columns: repeat(auto-fit, minmax(145px, 1fr)); }
+.metrics div, .landing-links article { border: 1px solid var(--line); background: var(--panel); border-radius: .72rem; padding: .85rem .8rem; }
+.metrics dt { color: var(--muted); font-size: .81rem; }
+.metrics dd { margin: .16rem 0 0; font-weight: 700; }
+.landing-links { grid-template-columns: repeat(auto-fit, minmax(238px, 1fr)); padding: .6rem 0 2.3rem; }
+.landing-links article { padding: 1rem 1.2rem; }
+.landing-links h2 { margin: 0; font-size: 1.12rem; }
+.landing-links p, .page-title p { color: var(--muted); margin: .3rem 0 0; }
+footer { display: flex; border-top: 1px solid var(--line); gap: .25rem 1rem; flex-wrap: wrap; padding: .7rem 0 1.4rem; }
+.page-title, .prose { padding: 1.1rem 0 2rem; }
+.page-title h1, .prose h1 { font-size: clamp(2rem, 6vw, 3.7rem); line-height: 1.12; margin: .6rem 0; }
+.gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 245px), 1fr)); gap: 1rem; padding-bottom: 2.5rem; }
+.gallery-card { border: 1px solid var(--line); border-radius: .65rem; overflow: hidden; background: var(--panel); }
+.gallery-card a { text-decoration: none; display: block; }
+.gallery-card a:focus-visible { outline-offset: -4px; }
+.gallery-card img { display: block; width: 100%; height: auto; aspect-ratio: 8 / 5; background: var(--panel); }
+.gallery-card div { display: flex; justify-content: space-between; align-items: start; gap: .4rem; min-height: 60px; padding: .75rem; color: var(--text); }
+.gallery-card span { white-space: nowrap; font-size: .83rem; color: var(--muted); }
+.prose { max-width: 850px; overflow-wrap: anywhere; }
+.prose img { max-width: 100%; height: auto; }
+.prose pre { overflow: auto; padding: 1rem; background: var(--panel); }
+.prose table { border-collapse: collapse; font-size: .95rem; width: 100%; }
+.prose th, .prose td { padding: .5rem; border: 1px solid var(--line); vertical-align: top; }
+@media (max-width: 540px) {
+  .hero { padding-top: 1.7rem; }
+  .hero h1 { font-size: clamp(3.5rem, 16vw, 5.5rem); }
+  .actions a { width: 100%; justify-content: center; }
+}

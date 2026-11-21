@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mk3 Stockalike Expansion 1.6.1.4 · ShineFix</title><link rel="stylesheet" href="../assets/site.css">
+<body><nav class="top" aria-label="Main"><a class="mark" href="../index.html">ShineFix</a><div>
+<a href="../support/index.html">Catalog</a><a href="../gallery.html">Gallery</a><a href="../support/evidence.html">Evidence</a></div></nav>
+<main class="frame prose"><h1>Mk3 Stockalike Expansion 1.6.1.4</h1>
+<p>KSP loaded 84 parts. Five crewed parts have windows. Two additional parts have docking lights. The native module inventory has no photovoltaic arrays.</p>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Work</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PPD-27 XL Cupola Cockpit</td>
+<td>Matched the canopy mask to the native window renderer.</td>
+</tr>
+<tr>
+<td>Mk3 Inline Command Bridge</td>
+<td>Matched the bridge glazing, fuselage windows and round door ports. Cut only the skin within each door port.</td>
+</tr>
+<tr>
+<td>Mk3-2 Cockpit</td>
+<td>Matched the windshield and round hatch-glass regions in the stock shuttle atlas.</td>
+</tr>
+<tr>
+<td>Mk3 Crew Saddletank</td>
+<td>Masked the cabin windows in the stock fuselage atlas, using its matching illumination map to find the original tinted regions.</td>
+</tr>
+<tr>
+<td>Mk3 Mobile Processing Lab MPL-XLG</td>
+<td>Matched the round window masks and opened the backing behind all six portholes.</td>
+</tr>
+<tr>
+<td>Mk3 Clamp-O-Tron Docking Port</td>
+<td>Applied the lens mask to the isolated light mesh and opened the authored shield for review.</td>
+</tr>
+<tr>
+<td>Mk3 Shielded Docking Port</td>
+<td>Applied the shared lens mask to the isolated light mesh and opened the authored shield for review.</td>
+</tr>
+</tbody>
+</table>
+<p>The glass profiles share the reflection and transparency masks. They use 0.95 shininess, #e7e7e7 specular color, 80% opacity and half the authored window emission. The projected IVA and seats use their native placement.</p>
+<p>The laboratory has three portholes per side. Sightlines in the original part hit the closely spaced backing at approximately 7–14 mm behind the sampled glass. The laboratory payload follows the six masked apertures. The Inline bridge has a second fuselage surface 4 mm behind each round door port. The door payload clips four hull triangles within the two port outlines.</p>
+<p>The stand verified the five crewed parts, both supplemental Inline ports, the installed light switches, and the exposed docking lenses in the hangar and on the runway. The original laboratory and Inline bridge shell meshes return when transparency is off. Both cuts reappear when transparency is enabled. The seven runway captures used solar elevations of 82.926–82.960°.</p>
+<ul>
+<li><a href="../evidence/PartGallery/Mk3Expansion-Verified/ShineFix.html">Gallery</a></li>
+<li><a href="../records/evidence/PartGallery/Mk3Expansion-Verified/mk3-expansion/all.log.html">Native verification log</a></li>
+<li><a href="../records/evidence/PartGallery/Mk3Expansion-Verified/mk3-expansion/RunwayLighting.tsv.html">Runway lighting measurements</a></li>
+<li><a href="../records/TestStand/ModSurvey/Work/manual/Mk3Expansion-Materials/Mk3Expansion/Materials.tsv.html">Native material inventory</a></li>
+<li><a href="../evidence/PartGallery/Mk3Expansion-DoorTransmission/mk3-expansion/InlineDoorTransmission.jpg">Inline door transmission diagnosis</a></li>
+</ul>
+</main></body></html>

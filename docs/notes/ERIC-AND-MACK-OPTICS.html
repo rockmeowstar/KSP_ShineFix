@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EricAndMack 1.0.0 optical review · ShineFix</title><link rel="stylesheet" href="../assets/site.css">
+<body><nav class="top" aria-label="Main"><a class="mark" href="../index.html">ShineFix</a><div>
+<a href="../support/index.html">Catalog</a><a href="../gallery.html">Gallery</a><a href="../support/evidence.html">Evidence</a></div></nav>
+<main class="frame prose"><h1>EricAndMack 1.0.0 optical review</h1>
+<p>Native KSP inventory loaded 22 parts and 275 material slots. Two parts have authored IVA, <code>CJS64Body</code> and <code>MackTruckCJ</code>. Mack's dedicated lamps are animated by <code>ModuleAnimateGeneric</code>. The pack contains no deployable solar panel.</p>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Optical changes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>CJS64Body</code></td>
+<td><code>Glass</code> and <code>GlassDoorOuter</code> use the blue area of the <code>Erik</code> atlas. The blue swatch does not overlap <code>GlassEdgeInner</code> or the rubber trim UVs. The authored inner door keeps its translucent material. Native IVA and assigned seats were exercised in both scenes.</td>
+</tr>
+<tr>
+<td><code>MackTruckCJ</code></td>
+<td><code>MACK_CabHatchGlass</code> and <code>MACK_Lwindow</code> use the matching blue area of <code>MackTP</code>. The mirror faces use reflection only. The front lamp and rear light renderers preserve their source unlit materials' contribution. The stock <code>Glow</code> and <code>Stop</code> animations reached their endpoints. The base paint and all nine alternate paints retained the window, mirror and lamp bindings.</td>
+</tr>
+<tr>
+<td><code>CJStraddler</code></td>
+<td>The blue tile on the probe core receives reflection. The box remains opaque.</td>
+</tr>
+</tbody>
+</table>
+<p>The cabin apertures share one Gaussian-smoothed scalar mask with reflections. Both use 80% opacity, 0.95 shininess and <code>#e7e7e7</code> specular color. Neither cabin window material has an authored emission texture. The vehicle captures use the normal vehicle orientation, with the camera kept within the interior fade range.</p>
+<p><a href="../records/TestStand/ModSurvey/Work/manual/EisenhowerToHandrails-Materials/EisenhowerAstronautics/Materials.tsv.html">Native materials</a> · <a href="../records/TestStand/ModSurvey/Work/manual/EisenhowerToHandrails-Materials/EisenhowerAstronautics/PartModules.tsv.html">Native part modules</a> · <a href="../evidence/PartGallery/EricAndMack/ShineFix.html">Gallery</a> · <a href="../records/evidence/PartGallery/EricAndMack/eric-and-mack/level-pose-optical.log.html">Optics and paint variants</a> · <a href="../records/evidence/PartGallery/EricAndMack/eric-and-mack/capture.log.html">Skycrane final capture</a></p>
+</main></body></html>

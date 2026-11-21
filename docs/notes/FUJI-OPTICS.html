@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fuji 1.4 optical review · ShineFix</title><link rel="stylesheet" href="../assets/site.css">
+<body><nav class="top" aria-label="Main"><a class="mark" href="../index.html">ShineFix</a><div>
+<a href="../support/index.html">Catalog</a><a href="../gallery.html">Gallery</a><a href="../support/evidence.html">Evidence</a></div></nav>
+<main class="frame prose"><h1>Fuji 1.4 optical review</h1>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Verified surfaces</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Polaris Crew A</td>
+<td>One capsule window and one of two native seats occupied.</td>
+</tr>
+<tr>
+<td>Polaris Crew B</td>
+<td>Three capsule windows and three of six native seats occupied.</td>
+</tr>
+<tr>
+<td>Polaris Orbital A</td>
+<td>Three orbital windows and two of four native seats occupied. The part uses the stock <code>crewCabinInternals</code> specified by the author.</td>
+</tr>
+<tr>
+<td>Polaris Solar A</td>
+<td>Three exposed photovoltaic leaves in the authored extended state.</td>
+</tr>
+</tbody>
+</table>
+<p>The two window masks come from the blue texels with matching source alpha. The panel mask selects the blue cells before Gaussian smoothing. Mesh UV checks found 14, 42 and 42 window triangles respectively and two triangles per photovoltaic leaf. Each window shares its reflection, transparency and emission mask. The standard is <code>0.95</code>, <code>#e7e7e7</code>, 80% opacity and 50% of authored window emission.</p>
+<p>The seven windows showed native IVA in the hangar and on the runway. Hiding the IVA changed the sampled window patches by 3.73–29.57 RGB levels across the 14 checks. No offset correction was needed in these views. The crew manifest retained the assigned stock seat indices in both scenes. The three cabin light controls completed an on/off cycle in flight. The runway sun measured 82.96°–82.99°. The native inventory covered 14 Fuji parts and isolated the optics in the four table entries.</p>
+<p><a href="../evidence/PartGallery/Fuji-AllPanes/ShineFix.html">Verified gallery</a> · <a href="../records/evidence/PartGallery/Fuji-AllPanes/fuji/all.log.html">Native checks</a> · <a href="../records/evidence/PartGallery/FujiFrontier-Inventory/Fuji/Materials.tsv.html">Prefab materials</a> · Mask generator</p>
+</main></body></html>

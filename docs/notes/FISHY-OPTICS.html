@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fishy weapons (FAMS continued) 0.10.0 optical review · ShineFix</title><link rel="stylesheet" href="../assets/site.css">
+<body><nav class="top" aria-label="Main"><a class="mark" href="../index.html">ShineFix</a><div>
+<a href="../support/index.html">Catalog</a><a href="../gallery.html">Gallery</a><a href="../support/evidence.html">Evidence</a></div></nav>
+<main class="frame prose"><h1>Fishy weapons (FAMS continued) 0.10.0 optical review</h1>
+<p>The stand resolved BDArmory for Runway Project and the pinned Fishy Mod Core 1.1.5a. The CKAN metadata declares the core for KSP 1.12.3. It was explicitly included on the 1.12.5 stand for the native check.</p>
+<p>The material inventory emitted 102 loaded part entries and 534 slots. Its translucent surfaces are the inherited BDArmory camera, ABL, Hellfire and Maverick glass renderers. ShineFix profiles use the same reflective sheet treatment as the accepted BDArmory optics. All 12 parts passed the material binding check in the hangar and on the runway. The ABL captures use the authored exposed pose. No IVA or solar panels are present in the loaded package.</p>
+<p>The final gallery uses a closer view from the lens side. For the three targeting cameras, suppressing reflection in the same frame changed the sampled lens by 74.07–74.74 RGB levels in the hangar and 93.53–96.82 on the runway. The other nine pairs show the exposed optical surface with its native opacity and ShineFix reflection.</p>
+<p>Three source declarations did not compile in KSP. <code>AV-R9_1</code> has no associated mesh. <code>Small-Bomb0000</code> refers to <code>miniFuselage/model</code>, while the stock fuselage asset is <code>miniFuselage/Fuselage.mu</code>. <code>radarDataTransmitterImproved</code> points to a BDArmory directory. The package's local receiver model contains <code>dataReceiver</code>, <code>mat_dataReceiver</code> and <code>tex_dataReceiver.png</code>, with no glass geometry. These items are outside the package's reviewed optics.</p>
+<p><a href="../evidence/PartGallery/FishyAntiMissileSpam-Verified/ShineFix.html">Verified gallery</a> · <a href="../records/evidence/PartGallery/FishyAntiMissileSpam-CameraLenses/fishy-antimissile-spam/capture.log.html">Native lens comparison</a> · <a href="../records/TestStand/ModSurvey/Work/manual/FishyAntiMissileSpam-Materials/FishyAntiMissileSpam/Materials.tsv.html">Native materials</a></p>
+</main></body></html>
