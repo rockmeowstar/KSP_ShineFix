@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/release-2.0.0--rc2-8b5cf6?style=flat-square" alt="Release candidate 2.0.0-rc2">
+  <img src="https://img.shields.io/badge/release-2.0.0-8b5cf6?style=flat-square" alt="Release 2.0.0">
   <img src="https://img.shields.io/badge/KSP-1.12.5-64748b?style=flat-square" alt="KSP 1.12.5">
   <img src="https://img.shields.io/badge/human--tested-229_mods_%2B_Stock-14b8a6?style=flat-square" alt="229 mods and Stock tested by a human">
   <img src="https://img.shields.io/badge/verified-2026--11--21-22c55e?style=flat-square" alt="Verified November 21, 2026">
