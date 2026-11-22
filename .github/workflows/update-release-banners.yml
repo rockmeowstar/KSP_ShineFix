@@ -1,0 +1,31 @@
+name: Update release banners
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Published release tag
+        required: true
+        type: string
+
+permissions: {}
+
+jobs:
+  notify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Trigger the banner workflow for this release
+        env:
+          GH_TOKEN: ${{ secrets.BANNER_DISPATCH_TOKEN }}
+          MOD: ${{ github.event.repository.name }}
+          RELEASE_TAG: ${{ github.event.release.tag_name || inputs.tag }}
+        run: |
+          if [[ -z "$GH_TOKEN" ]]; then
+            echo "::error::BANNER_DISPATCH_TOKEN is missing or empty"
+            exit 1
+          fi
+          gh workflow run pages.yml --repo rockmeowstar/ksp-release-banners --ref main \
+            -f mod="$MOD" -f tag="$RELEASE_TAG"
