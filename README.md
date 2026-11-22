@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/release-2.0.0-8b5cf6?style=flat-square" alt="Release 2.0.0">
+  <img src="https://img.shields.io/badge/release-2.0.2-8b5cf6?style=flat-square" alt="Release 2.0.2">
   <img src="https://img.shields.io/badge/KSP-1.12.5-64748b?style=flat-square" alt="KSP 1.12.5">
   <img src="https://img.shields.io/badge/human--tested-229_mods_%2B_Stock-14b8a6?style=flat-square" alt="229 mods and Stock tested by a human">
   <img src="https://img.shields.io/badge/verified-2026--11--21-22c55e?style=flat-square" alt="Verified November 21, 2026">
@@ -42,6 +42,7 @@
 - **FreeIVA-style movement in Through The Eyes of a Kerbal.** The optional controls make movement from IVA to first-person EVA feel continuous. The integration lives in ShineFix alongside the interior optimization that makes visible cabin windows practical without boarding hitches.
 - **Readable interiors with the lights on.** Window glow is tuned so the cabin and Kerbals remain visible through the glass.
 - **Live transparency switching.** Choose semi-transparent reflective windows or the classic ShineFix look with opaque reflective windows. The change applies as soon as you toggle it.
+- **Adjustable window opacity and glow.** In the SF menu, set window opacity from 20% to 80% (default 80%) and window glow from 10% to 100% (default 50%). Both sliders apply immediately and remember their values. Glow follows each part's light switch.
 - **Built from scratch.** ShineFix 2.0 reuses no protected asset files from KSP or other mods. I created all the texture masks, which ShineFix applies to installed materials at runtime.
 - **Reflections and transparency survive recoloring.** A key difference in ShineFix 2.0 is that changing a supported part's paint keeps the effects aligned with its windows and reflective surfaces.
 - **A dedicated in-game toolbar icon.** Click **SF** in the KSP toolbar to open ShineFix settings and quickly change window transparency or access the optional first-person EVA controls.
