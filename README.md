@@ -9,10 +9,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/release-2.0.2-8b5cf6?style=flat-square" alt="Release 2.0.2">
+  <img src="https://img.shields.io/badge/release-2.0.3-8b5cf6?style=flat-square" alt="Release 2.0.3">
   <img src="https://img.shields.io/badge/KSP-1.12.5-64748b?style=flat-square" alt="KSP 1.12.5">
-  <img src="https://img.shields.io/badge/human--tested-229_mods_%2B_Stock-14b8a6?style=flat-square" alt="229 mods and Stock tested by a human">
-  <img src="https://img.shields.io/badge/verified-2026--11--21-22c55e?style=flat-square" alt="Verified November 21, 2026">
+  <img src="https://img.shields.io/badge/human--tested-235_mods_%2B_Stock-14b8a6?style=flat-square" alt="235 mods and Stock tested by a human">
+  <img src="https://img.shields.io/badge/verified-2026--11--23-22c55e?style=flat-square" alt="Verified November 23, 2026">
   <a href="#ai-disclosure"><img src="https://img.shields.io/badge/AI_code-2%25_estimated-8b5cf6?style=flat-square" alt="Estimated AI-generated code 2 percent"></a>
   <a href="#ai-disclosure"><img src="https://img.shields.io/badge/AI_tests-72%25_estimated-a78bfa?style=flat-square" alt="Estimated AI-generated tests 72 percent"></a>
 </p>
@@ -34,7 +34,7 @@
 
 ## What’s new
 
-- **Solar panel and window reflections.** Human verification covers **229 mods and Stock**. The release targets **1,694 unique named parts**, and the optics galleries show **1,522 distinct part IDs** across integrations with optics changes. The goal is to cover every player-created KSP part mod.
+- **Solar panel and window reflections.** Human verification covers **235 mods and Stock**. The goal is to cover every player-created KSP part mod.
 - **Kerbal helmet reflections in the main menu.** Helmet visors reflect their surroundings both in the menu and in gameplay.
 - **Smoother boarding.** Small fixes reduce the hitch when Kerbals board a cabin. ShineFix updates the affected crew and reuses cabin geometry when it can.
 - **Transparent windows for cabins and science modules.** See cockpit and lab interiors through their reflective glass.

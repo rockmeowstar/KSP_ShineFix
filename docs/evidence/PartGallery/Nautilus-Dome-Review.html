@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShineFix · S-2 Nautilus O.C.P.</title>
+<style>
+  body { max-width: 88rem; margin: 2rem auto; padding: 0 1rem; font: 1rem/1.55 system-ui; color: #182337; background: #f4f6fa; }
+  table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+  th, td { padding: .5rem; border-bottom: 1px solid #ccd4e0; text-align: left; }
+  th:first-child { width: 16%; }
+  img { width: 100%; height: auto; display: block; border-radius: .25rem; }
+  a { color: #154279; }
+</style>
+<main>
+  <h1>S-2 Nautilus O.C.P.</h1>
+  <p>На всех кадрах выставлено 20% непрозрачности стекла. На ВПП сравниваются кадры до и после вырезания проёмов в обшивке. В ангаре обе колонки сняты после правки обшивки. Слева снято воспроизведение дефекта тестирования, справа кадр со штатной камеры SPH. Нажми на кадр, чтобы открыть его в полном размере.</p>
+  <table>
+    <thead><tr><th scope="col">Вид</th><th scope="col">Исходный кадр</th><th scope="col">Повторная съёмка</th></tr></thead>
+    <tbody>
+      <tr>
+        <th scope="row">Боковой купол на ВПП</th>
+        <td><a href="Nautilus-Dome-Baseline/dsev/067-wbiNautilusBridge.runway.nautilus-dome-side.webp"><img src="Nautilus-Dome-Baseline/dsev/067-wbiNautilusBridge.runway.nautilus-dome-side.webp" alt="До правки за боковым стеклом видна сплошная обшивка"></a></td>
+        <td><a href="Nautilus-Dome-Retake/dsev/067-wbiNautilusBridge.runway.nautilus-dome-side.webp"><img src="Nautilus-Dome-Retake/dsev/067-wbiNautilusBridge.runway.nautilus-dome-side.webp" alt="После правки через боковое стекло виден кербал"></a></td>
+      </tr>
+      <tr>
+        <th scope="row">Торцевой купол на ВПП</th>
+        <td><a href="Nautilus-Dome-Baseline/dsev/067-wbiNautilusBridge.runway.nautilus-dome-end.webp"><img src="Nautilus-Dome-Baseline/dsev/067-wbiNautilusBridge.runway.nautilus-dome-end.webp" alt="До правки за торцевым стеклом видна обшивка"></a></td>
+        <td><a href="Nautilus-Dome-Retake/dsev/067-wbiNautilusBridge.runway.nautilus-dome-end.webp"><img src="Nautilus-Dome-Retake/dsev/067-wbiNautilusBridge.runway.nautilus-dome-end.webp" alt="После правки через торцевое стекло виден интерьер"></a></td>
+      </tr>
+      <tr>
+        <th scope="row">Боковой купол в ангаре</th>
+        <td><a href="Nautilus-Hangar-Live/dsev/067-wbiNautilusBridge.hangar.nautilus-dome-side.webp"><img src="Nautilus-Hangar-Live/dsev/067-wbiNautilusBridge.hangar.nautilus-dome-side.webp" alt="Боковой купол, ошибочный кадр копии камеры" loading="lazy"></a></td>
+        <td><a href="Nautilus-Native-Camera/dsev/067-wbiNautilusBridge.hangar.nautilus-dome-side.webp"><img src="Nautilus-Native-Camera/dsev/067-wbiNautilusBridge.hangar.nautilus-dome-side.webp" alt="Боковой купол со штатной камеры SPH, видны кербал и стены" loading="lazy"></a></td>
+      </tr>
+      <tr>
+        <th scope="row">Торцевой купол в ангаре</th>
+        <td><a href="Nautilus-Hangar-Live/dsev/067-wbiNautilusBridge.hangar.nautilus-dome-end.webp"><img src="Nautilus-Hangar-Live/dsev/067-wbiNautilusBridge.hangar.nautilus-dome-end.webp" alt="Торцевой купол, ошибочный кадр с просветами за креслом" loading="lazy"></a></td>
+        <td><a href="Nautilus-Native-Camera/dsev/067-wbiNautilusBridge.hangar.nautilus-dome-end.webp"><img src="Nautilus-Native-Camera/dsev/067-wbiNautilusBridge.hangar.nautilus-dome-end.webp" alt="Торцевой купол со штатной камеры SPH, видны кресло и стена" loading="lazy"></a></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>На ВПП и в ангаре через оба купола виден интерьер. Ложные просветы за креслом исчезли при съёмке штатной камерой. При выключении прозрачности исходная геометрия восстанавливается в обеих сценах.</p>
+  <h2>Свечение Nautilus</h2>
+  <p>Штатный переключатель света изменил RGB точки внутри маски с (74, 81, 86) до (203, 209, 174) в ангаре. Замер относится к одной точке.</p>
+  <ul>
+    <li><a href="Nautilus-Emission/dsev/067-wbiNautilusBridge-1-off.webp">Свет выключен</a></li>
+    <li><a href="Nautilus-Emission/dsev/067-wbiNautilusBridge-1-on.webp">Свет включён</a></li>
+  </ul>
+</main>
+</html>
