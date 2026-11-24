@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/release-2.0.5-8b5cf6?style=flat-square" alt="Release 2.0.5">
+  <img src="https://img.shields.io/badge/release-2.0.6-8b5cf6?style=flat-square" alt="Release 2.0.6">
   <img src="https://img.shields.io/badge/KSP-1.12.5-64748b?style=flat-square" alt="KSP 1.12.5">
-  <img src="https://img.shields.io/badge/human--tested-247_mods_%2B_Stock-14b8a6?style=flat-square" alt="247 mods and Stock tested by a human">
+  <img src="https://img.shields.io/badge/human--tested-263_mods_%2B_Stock-14b8a6?style=flat-square" alt="263 mods and Stock tested by a human">
   <img src="https://img.shields.io/badge/register-2026--11--24-22c55e?style=flat-square" alt="Verification register dated November 24, 2026">
   <a href="#ai-disclosure"><img src="https://img.shields.io/badge/AI_code-2%25_estimated-8b5cf6?style=flat-square" alt="Estimated AI-generated code 2 percent"></a>
   <a href="#ai-disclosure"><img src="https://img.shields.io/badge/AI_tests-72%25_estimated-a78bfa?style=flat-square" alt="Estimated AI-generated tests 72 percent"></a>
@@ -34,7 +34,9 @@
 
 ## What’s new
 
-- **Solar panel and window reflections.** The compatibility register covers **265 mods and Stock**. Human verification covers **247 mods and Stock**. [Human verification register](docs/support/human-tested.tsv)
+- **Solar panel and window reflections.** Human verification covers **263 mods and Stock**. [Human verification register](docs/support/human-tested.tsv)
+
+[ShineFix 2.0.6 release notes and newly supported mods](https://github.com/rockmeowstar/KSP_ShineFix/releases/tag/2.0.6)
 - **Kerbal helmet reflections in the main menu.** Helmet visors reflect their surroundings both in the menu and in gameplay.
 - **Smoother boarding.** Small fixes reduce the hitch when Kerbals board a cabin. ShineFix updates the affected crew and reuses cabin geometry when it can.
 - **Transparent windows for cabins and science modules.** See cockpit and lab interiors through their reflective glass.
